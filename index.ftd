@@ -1,40 +1,172 @@
--- ds.page: Welcome to doc-site
+-- ftd.text: HELLO WORLD
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #FFFF00
+align-content:  center
+-- ftd.text: WASHINGTON DC
+role: $inherited.types.heading-medium
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+
+- AMERICA
+
+-- ftd.row:
+width.fixed.px: 1450
+height.fixed.px: 650
+background.solid: #008000
+border-width.px: 3
+padding.px: 20
+border-radius.px: 20
+spacing.fixed.px: 50
+
+-- ftd.image:
+src: https://c1.wallpaperflare.com/preview/521/737/281/america-new-york-new-york-city-usa.jpg
+border-radius.px: 20
+width.fixed.px: 550
+height: fill-container
+
+-- ftd.column:
+
+-- ftd.text: U.S.A
+role: $inherited.types.heading-medium
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+
+The United States of America (U.S.A. or USA), commonly known as the United States (U.S. or US) or America, is a country, primarily located in North America, that consists of 50 states, a federal district, five major unincorporated territories, nine Minor Outlying Islands,[i] and 326 Indian reservations. It is the world's third-largest country by both land and total area.[c] It shares land borders with Canada to its north and with Mexico to its south and has maritime borders with the Bahamas, Cuba, Russia, and other nations.[j] With a population of over 333 million,[k] it is the most populous country in the Americas and the third-most populous in the world. The national capital of the United States is Washington, D.C., and its most populous city and principal financial center is New York City.
+
+Indigenous peoples have inhabited the Americas for thousands of years. Beginning in 1607, British colonization led to the establishment of the Thirteen Colonies in what is now the Eastern United States. They quarreled with the British Crown over taxation and political representation, leading to the American Revolution and ensuing Revolutionary War. The United States declared independence on July 4, 1776, becoming the first nation-state founded on Enlightenment principles of unalienable natural rights, consent of the governed, and liberal democracy.
+
+-- end: ftd.column
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
-
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
-
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
-
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
 
 
--- ds.h3: 🎯 Used by?
 
-Our all documentation sites uses this `doc-site` theme.
+-- end: ftd.row
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- ftd.text: about 
+role: $inherited.types.heading-medium
 
--- ds.h2: Learn fastn and become a pro?
+-- ftd.text:
+role: $inherited.types.copy-regular
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+This is done by karthik 
+-- end: ftd.column
 
--- end: ds.page
+
+-- component card:
+caption title: HYDERABAD
+body description: -INDIA
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #FFFF00
+align-content:  center
+spacing.fixed.px: 20
+-- ftd.text: $card.title
+role: $inherited.types.heading-medium
+
+-- ftd.text:$card.description
+role: $inherited.types.copy-regular
+
+ 
+
+-- ftd.row:
+width.fixed.px: 1450
+height.fixed.px: 650
+background.solid: #008000
+border-width.px: 3
+padding.px: 20
+border-radius.px: 20
+spacing.fixed.px: 50
+
+-- ftd.image:
+src: https://img.staticmb.com/mbcontent/images/uploads/2022/9/Charminar-Hyderabad.jpg
+border-radius.px: 20
+width.fixed.px: 550
+height: fill-container
+-- ftd.column:
+-- ftd.text: Hyderabad
+role: $inherited.types.heading-medium
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+
+Hyderabad is the capital and largest city of the Indian state of Telangana. It occupies 650 km2 (250 sq mi) on the Deccan Plateau along the banks of the Musi River, in the northern part of Southern India. With an average altitude of 542 m (1,778 ft), much of Hyderabad is situated on hilly terrain around artificial lakes, including the Hussain Sagar lake, predating the city's founding, in the north of the city centre. According to the 2011 Census of India, Hyderabad is the fourth-most populous city in India with a population of 6.9 million residents within the city limits, and has a population of 9.7 million residents in the metropolitan region, making it the sixth-most populous metropolitan area in India. With an output of US$74 billion, Hyderabad has the fifth-largest urban economy in India.
+
+
+-- end: ftd.column
+
+
+-- end: ftd.row
+
+-- ftd.text: about 
+role: $inherited.types.heading-medium
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+
+This is done by karthik 
+-- end: ftd.column
+-- end: card
+-- card:
+-- component hi:
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #FFFF00
+align-content:  center
+-- ftd.text: LONDON
+role: $inherited.types.heading-medium
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+
+- UNITED KINGDOM
+
+-- ftd.row:
+width.fixed.px: 1450
+height.fixed.px: 650
+background.solid: #008000
+border-width.px: 3
+padding.px: 20
+border-radius.px: 20
+spacing.fixed.px: 50
+
+-- ftd.image:
+src: https://c8.alamy.com/comp/T14X4X/london-uk-september-17-2016-london-is-the-capital-and-largest-city-of-england-and-united-kingdom-london-is-the-most-visited-city-in-the-world-an-T14X4X.jpg
+border-radius.px: 20
+width.fixed.px: 550
+height: fill-container
+-- ftd.column:
+-- ftd.text: UNITED KINGDOM
+role: $inherited.types.heading-medium
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+
+The United Kingdom of Great Britain and Northern Ireland, simply known as the United Kingdom (UK) or Britain,[k][16] is a country in Northwestern Europe, off the north-western coast of the continental mainland.[17] It comprises England, Scotland, Wales, and Northern Ireland.[l][18] It includes the island of Great Britain, the north-eastern part of the island of Ireland, and most of the smaller islands within the British Isles.[19] Northern Ireland shares a land border with the Republic of Ireland; otherwise, the United Kingdom is surrounded by the Atlantic Ocean, the North Sea, the English Channel, the Celtic Sea and the Irish Sea. The total area of the United Kingdom is 93,628 square miles (242,495 km2), with an estimated 2023 population of over 68 million people.
+
+
+-- end: ftd.column
+
+
+-- end: ftd.row
+
+-- ftd.text: about 
+role: $inherited.types.heading-medium
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+
+This is done by karthik 
+-- end: ftd.column
+-- end: hi
+-- hi:
+-- card: Lucknow 💛
+
+.. where history dances in the courtyards and elegance graces the
+streets, weaving tales of enchantment in every step.
